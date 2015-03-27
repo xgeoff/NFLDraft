@@ -1,0 +1,11 @@
+{
+    "players":[
+        {"lastname":"Winston", "firstname":"Jameis", "school":"Florida State", "height":"6'4", "weight":"231",  "positions":["QB"], "badges":[], "rating":"97", "underclass":"true"},
+        {"lastname":"Williams", "firstname":"Leonard", "school":"USC", "height":"6'5", "weight":"302",  "positions":["DE"], "badges":[], "rating":"96", "underclass":"true"},
+        {"lastname":"Cooper", "firstname":"Amari", "school":"Alabama", "height":"6'1", "weight":"211",  "positions":["WR"], "badges":[], "rating":"93", "underclass":"true"},
+        {"lastname":"White", "firstname":"Kevin", "school":"West Virginia", "height":"6'3", "weight":"215",  "positions":["WR"], "badges":[], "rating":"93"},
+        {"lastname":"Gregory", "firstname":"Randy", "school":"Nebraska", "height":"6'5", "weight":"235",  "positions":["OLB"], "badges":[], "rating":"93", "underclass":"true"},
+        {"lastname":"Mariota", "firstname":"Marcus", "school":"Oregon", "height":"6'4", "weight":"222",  "positions":["QB"], "badges":[], "rating":"93", "underclass":"true"}
+
+    ]
+}
