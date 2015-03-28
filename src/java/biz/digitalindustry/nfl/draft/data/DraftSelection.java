@@ -18,10 +18,10 @@ import javax.jdo.annotations.PrimaryKey;
 public class DraftSelection {
     @PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-    public long key;
+    public long id;
     public String team;
     public String owner;
-    public long playerkey;
+    public long playerid;
     public int round;
     public int pick;
     public String selectionType;//compensatory, standard

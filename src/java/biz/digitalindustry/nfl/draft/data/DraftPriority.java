@@ -17,10 +17,10 @@ import javax.jdo.annotations.PrimaryKey;
  * @author gporemba
  */
 @PersistenceCapable
-public class DraftPriorities {
+public class DraftPriority {
     @PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-    public long key;
+    public long id;
     public String teamname;
     public String userid;
     public List<PriorityEntry> priorities;

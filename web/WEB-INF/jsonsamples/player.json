@@ -1,0 +1,15 @@
+{
+    "id":1234566,
+    "lastname":"Winston", 
+    "firstname":"Jameis", 
+    "school":"Florida State", 
+    "height":"6'4", 
+    "weight":"231",  
+    "positions":["QB"], 
+    "badges":[
+        "top10",
+        "franchiseQB"
+    ], 
+    "rating":"97", 
+    "underclass":"true"
+}

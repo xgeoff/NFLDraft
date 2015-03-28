@@ -1,0 +1,30 @@
+{
+    "id":123456,
+    "selections":[
+        {
+            "team":"tampabaybuccaneers",
+            "owner":"tampabaybuccaneers",
+            "playerid":123456,
+            "round":1,
+            "pick":1,
+            "selectionType":1
+        },
+        {
+            "team":"tennesseetitans",
+            "owner":"tennesseetitans",
+            "playerid":123457,
+            "round":1,
+            "pick":2,
+            "selectionType":1
+        },
+        {
+            "team":"jacksonvillejaguars",
+            "owner":"jacksonvillejaguars",
+            "playerid":123459,
+            "round":1,
+            "pick":3,
+            "selectionType":1
+        }
+    ],
+    "year":2015
+}

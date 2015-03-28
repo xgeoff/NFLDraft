@@ -19,7 +19,7 @@ import javax.jdo.annotations.PrimaryKey;
 public class Draft {
     @PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-    public long key;
+    public long id;
     public String userid;
     public List<DraftSelection> selections;
     public int year;

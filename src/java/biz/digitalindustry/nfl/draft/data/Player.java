@@ -19,7 +19,7 @@ import javax.jdo.annotations.PrimaryKey;
 public class Player {
     @PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-    public long key;
+    public long id;
     public String firstname;
     public String lastname;
     public String height;

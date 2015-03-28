@@ -5,17 +5,22 @@
  */
 package biz.digitalindustry.nfl.draft.data;
 
-import java.util.List;
+import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
 
 /**
  *
  * @author gporemba
  */
 @PersistenceCapable
-public class PositionRank {
-    public String player;
+public class PlayerRating {
+    @PrimaryKey
+    @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
+    public long id;
+    public long player;
     public String position;
-    public int rank;
+    public int rating;
     
 }

@@ -1,0 +1,15 @@
+{
+    "id":12345678,
+    "teamname":"seattleseahawks",
+    "userid":"xgeoff.shredder",
+    "priorities":[
+        {
+        "position":"OLB",
+        "priority":10
+        },
+        {
+        "position":"RB",
+        "priority":8
+        }
+    ]
+}

@@ -18,7 +18,7 @@ import javax.jdo.annotations.PrimaryKey;
 public class PriorityEntry {
     @PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-    public long key;
+    public long id;
     public String position;
     public int priority;
 }
